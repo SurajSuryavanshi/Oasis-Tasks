@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Mochiy+Pop+P+One&family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Mochiy+Pop+P+One&family=Satisfy&display=swap');
+
+body{
+    margin: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #000000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+::before,:after{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+header,
+section,
+footer{
+    display: block;
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.title-section{
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.title-section h2{
+    font-size: 45px;
+    color: #000000;
+    font-weight: 700;
+}
+.header{
+    
+    width: 100%;   
+    z-index: 99;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.header .logo a{
+    text-align: center;
+    font-size: 30px;
+    color: #2b2b2b;
+    font-weight: bold;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    letter-spacing: 2 px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.header .nav{
+    padding: 0 15px;
+
+}
+.home-section{
+    min-height: 100vh;
+    background-color: gray;
+
+}
+.home-section .slide{
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.home-section .slide::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: -1;
+}
+.home-section .row{
+    min-height: 100vh;
+}
+.home-section .home-content{
+    flex:0 0 100%;
+    max-width: 100%;
+    padding:0 15px;
+
+    text-align: auto;
+}
+.home-section .home-content p{
+    font-size: 80px;
+    color: rgb(255, 244, 244);
+    margin: 0 0 15px;
+
+}
+.home-section .home-content h1{
+    font-size: 20px;
+    color: #4d4d4d;
+    margin: 0;
+    font-weight: normal;
+    
+}
+.childhood-section{
+    padding: 80px 0 80px;
+}
+.childhood-section .child{
+ 
+    text-align: center;
+}
+.childhood-section .child img{
+     max-width: 530px;
+     height: 400px;
+     width:100%;
+     border-radius: 20%;
+
+ }
+ .childhood-section .child h3{
+     font-size: 40px;
+     margin: 15px 0;
+     color: rgb(255, 255, 255);
+     font-family:  'Mochiy Pop P One', sans-serif;
+ }
+ .childhood-section .child p{
+     color: blanchedalmond;
+ }
+ .pk-row{
+     display: flex;
+     min-height: 100vh;
+     align-items: center;
+ }
+ .col{
+     flex-basis: 50%;
+ }
+ h4{
+     color: #fff;
+     font-size: 60px;
+     font-family: sans-serif;
+ }
+ p{
+     color: #fff;
+     font-size: 17px;
+     line-height: 15px;
+ }
+ .card{
+     width: 340px;
+     height: 230px;
+     display: inline-block;
+     border-radius: 10px;
+     padding: 15px 25px;
+     box-sizing: border-box;
+     cursor: pointer;
+     margin: 10px 15px;
+     background-position: center;
+     background-size: cover;
+     
+ }
+ .card1{
+    background-image: url(22Arjuna.jpg);
+ }
+ .card2{
+    background-image: url(paadma.jpg);
+ }
+ .card3{
+    background-image: url(bharat.jpg);
+ }
+ .card4{
+    background-image: url(HallFame.png);
+ }

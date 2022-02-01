@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>McDonalds Website Landing Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section>
+            <div class="circle"></div>
+            <header>
+                <a href="#"><img src="logo.jpg" class="logo"></a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Our Menu</Menu></a></li>
+                    <li><a href="#">What's New</a></li>
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+            </header>
+            <div class="content">
+                <div class="textBox">
+                    <h2><span>McDonald's</span><br>I'm Lovin' It</h2>
+                    <p>McDonald's is the world's leading food service retailer with more than 
+                       31,000 restaurants in 119 countries serving more than 50 million customers 
+                       each day. In India, McDonald's is a joint-venture company managed by two Indians</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="imgBox">
+                    <img src="mcdonalds1.png" class="McDonalds">
+                </div>
+            </div>
+            <ul class="thumb">
+                <li><img src="thumb1.png" onclick="imgSlider('mcdonalds1.png')"></li>
+                    <li><img src="thumb2.png" onclick="imgSlider('mcdonalds2.png')"></li>
+                        <li><img src="thumb3.png" onclick="imgSlider('mcdonalds3.png')"></li>
+            </ul>
+            <ul class="sci">
+                <li><a href="#"><img src="Facebook.png"></a></li>
+                <li><a href="#"><img src="instagram.png"></a></li>
+                <li><a href="#"><img src="Twitter.png"></a></li>
+            </ul>
+        </section>
+        <script type="text/javascript">
+            function imgSlider(anything){
+                document.querySelector('.McDonalds').src = anything;
+            }
+        </script>
+    </body>
+</html>
